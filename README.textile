@@ -1,8 +1,13 @@
-= trole
+h1. Trole
 
-Description goes here.
+Single role 'troles' strategies, i.e strategies for adding the ability to have a single role for your role subject of choice.
+A 'role subject' is typically a User, a UserAccount or even a RoleGroup (see "trole_groups":https://github.com/kristianmandrup/trole_groups gem)
 
-== Contributing to trole
+h2. TODO
+
+* Use "schemaker":https://github.com/kristianmandrup/schemaker gem for configuring schema/models
+
+h2. Contributing to trole
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
@@ -12,7 +17,7 @@ Description goes here.
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
-== Copyright
+h2. Copyright
 
 Copyright (c) 2011 Kristian Mandrup. See LICENSE.txt for
 further details.
