@@ -1,7 +1,12 @@
-require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
+require 'trole'
+require 'trole/macros'
+require 'troles'
 
-describe "Trole" do
-  it "fails" do
-    fail "hey buddy, you should probably rename this file and start specing for real"
+require 'troles/common/api_spec' # Common API examples
+require 'trole/api_spec'  # Trole API examples
+
+describe Trole do
+  it "should be a module" do
+    Trole.should be_a(Module)
   end
 end
